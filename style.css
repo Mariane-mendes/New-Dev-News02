@@ -29,7 +29,7 @@ a {
     font-weight: 500;
 }
 
-#sectionOne {
+.sectionOne {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -218,34 +218,94 @@ b {
     h2 {
         font-size: 1.5rem;
     }
-
+    
     .theDevNews {
-        text-align: center;
-    }
-
-    #sectionOne {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 8px;
     }
-
-    .contentRight {
+    
+    .sectionOne {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.8rem;
+    }
+    
+    .sectionTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items:  center;
     }
 
-    .rightContent {
+
+    .backgroundImg {
+        width: 95%;
+        height: 65vh;
+        background-size: cover;
+        background-position: center;
+        margin: 40px 0px 0 0px;
+    }
+
+    .divGreen {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .postsP {
+        width: 95.9vw;
+        margin-top: 0;
+        display: flex;
+    }
+
+    .mineCard {
+        width: 95.9vw;
+        height: 13.15vh;
+        display: grid;
+        grid-template-columns: 5rem 100fr;
+        align-items: center;
+        margin-top: 1.25rem;
     }
 
     .postMore {
-        width: 32vw;
+        width: 95.9vw;
+        height: 40px;
+        margin: 25px 0 25px 5px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .containerCards {
         grid-template-columns: 1fr;
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .cards {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards > img {
+        width:371px ;
+    }
+
+    .category {
+        width:95.9vw;
+        padding:8px;
+        margin-right: 10px;
+    } 
+    
+    .list {
+        padding: 8px;
+        width: 95.9vw;
     }
 }
-
-
